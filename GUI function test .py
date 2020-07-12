@@ -68,7 +68,7 @@ def result():
 
 
         # Label(text=f"Mr. {name} your Result").grid()
-        Label(text=f"Calories: {calories}").grid()
+        Label(text=f"Calories: {int(calories)}").grid()
         Label(text=f"Fat: {int(fat_cal)}(cal) || {int(fat_gm)}(gm) || {int(fat_per)}(%)").grid()
         Label(text=f"Protein: {int(protein_cal)}(cal) || {int(protein_gm)}(gm) || {int(protein_per)}(%)").grid()
         Label(text=f"Carb: {int(carb_cal)}(cal) || {int(carb_gm)}(gm) || {int(carb_per)}(%)").grid()
@@ -76,7 +76,7 @@ def result():
         print(f'''        Name: {name}
         Gender: Male
         Age: {age}
-        calories: {calories}
+        calories: {int(calories)}
         Fat: {int(fat_cal)}(cal) | {int(fat_gm)}(gm) | {int(fat_per)}(%)
         Protein: {int(protein_cal)}(cal) | {int(protein_gm)}(gm) | {int(protein_per)}(%)
         Carb: {int(carb_cal)}(cal) | {int(carb_gm)}(gm) | {int(carb_per)}(%)''')
@@ -100,7 +100,7 @@ def result():
 
 
         # Label(text=f"Ms. {name} your Result").grid()
-        Label(text=f"Calories: {calories}").grid()
+        Label(text=f"Calories: {int(calories)}").grid()
         Label(text=f"Fat: {int(fat_cal)}(cal) || {int(fat_gm)}(gm) || {int(fat_per)}(%)").grid()
         Label(text=f"Protein: {int(protein_cal)}(cal) || {int(protein_gm)}(gm) || {int(protein_per)}(%)").grid()
         Label(text=f"Carb: {int(carb_cal)}(cal) || {int(carb_gm)}(gm) || {int(carb_per)}(%)").grid()
@@ -109,7 +109,7 @@ def result():
         print(f'''        Name: {name}
         Gender: Female
         Age: {age}
-        calories: {calories}
+        calories: {int(calories)}
         Fat: {int(fat_cal)}(cal) | {int(fat_gm)}(gm) | {int(fat_per)}(%)
         Protein: {int(protein_cal)}(cal) | {int(protein_gm)}(gm) | {int(protein_per)}(%)
         Carb: {int(carb_cal)}(cal) | {int(carb_gm)}(gm) | {int(carb_per)}(%)''')
